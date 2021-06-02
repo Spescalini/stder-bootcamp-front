@@ -1,0 +1,17 @@
+#header{
+  width: 100%;
+  background-color: var(--primary-color);
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 6px 12px rgba(0.0.0.0.16), 0 6px 12px rgba(0,0,0,0.23);
+}
+
+@media screen and (max-width: 34.375rem) {
+  #header{
+    justify-content: center;
+    background-color: rgba(32, 32, 32, 0.836);
+  }
+}
