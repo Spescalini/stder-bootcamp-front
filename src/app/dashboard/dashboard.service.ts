@@ -7,7 +7,7 @@ import Stock from '../shared/models/stock-model';
 })
 export class DashboardService {
 
-readonly baseUrl ='http://stder-corretora.herokuapp.com/stdercorretora'
+readonly baseUrl ='https://stder-corretora.herokuapp.com/stdercorretora'
 
   constructor(private http: HttpClient) { }
 
